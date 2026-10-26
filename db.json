@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Learn React Components",
+      "description": "Understand JSX, components, and props.",
+      "status": "todo",
+      "priority": "high",
+      "createdAt": "2026-10-19"
+    },
+    {
+      "id": "2",
+      "title": "Build TaskFlow UI",
+      "description": "Create the initial Kanban board.",
+      "status": "in-progress",
+      "priority": "medium",
+      "createdAt": "2026-10-19"
+    },
+    {
+      "id": "3",
+      "title": "Practice JavaScript",
+      "description": "Practice arrays, objects, and functions.",
+      "status": "done",
+      "priority": "low",
+      "createdAt": "2026-10-19"
+    }
+  ]
+}

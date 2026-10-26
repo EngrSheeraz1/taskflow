@@ -1,0 +1,77 @@
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 32px;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: white;
+}
+
+.icon {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 11px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.purple {
+  color: #6558e8;
+  background: #eeecff;
+}
+
+.blue {
+  color: #3184df;
+  background: #e7f2ff;
+}
+
+.green {
+  color: #23976a;
+  background: #e1f7ec;
+}
+
+.orange {
+  color: #df8a31;
+  background: #fff1df;
+}
+
+.label {
+  margin: 17px 0 6px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.value {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.detail {
+  margin: 7px 0 0;
+  color: #929bad;
+  font-size: 11px;
+}
+
+@media (max-width: 900px) {
+  .stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 450px) {
+  .stats {
+    gap: 10px;
+  }
+
+  .card {
+    padding: 14px;
+  }
+}
